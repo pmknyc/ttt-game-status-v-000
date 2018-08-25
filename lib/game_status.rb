@@ -1,9 +1,9 @@
 # Helper Method
 
-#boardempty = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#boardwonX = ["X", "O", "X", " ", "X", "O", "X", " ", "O"]
-#boardwonO = ["O", "X", "O", " ", "O", "X", "O", " ", "X"]
-#boarddraw = ["X", "O", "X", "X", "O", "O", "O", "X", "X" ]
+boardempty = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+boardwonX = ["X", "O", "X", " ", "X", "O", "X", " ", "O"]
+boardwonO = ["O", "X", "O", " ", "O", "X", "O", " ", "X"]
+boarddraw = ["X", "O", "X", "X", "O", "O", "O", "X", "X" ]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
